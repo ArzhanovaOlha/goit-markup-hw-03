@@ -98,7 +98,7 @@ ul {
   align-items:center;
 }
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 .nav-menu, .address-list,.features-list, .team-list, .portfoliolist {
   display: flex;
@@ -113,6 +113,7 @@ ul {
 .portfoliolist {
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px; 
 }
 .features-list, .team-list {
   gap: 24px;
